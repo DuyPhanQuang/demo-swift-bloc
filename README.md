@@ -343,21 +343,6 @@ then, ONLY using all styles in application through by all defined-styles
         .foregroundColor(.black)
 ```
 
-## Environment
-All environments are configured in Configurations folder. Use .xcconfig to defines all parameters needed in application
-
-```xcconfig
-    ENVIRONMENT = DEV
-    APP_NAME = SwiftUI Bloc Dev
-    APP_BUNDLE_ID = ptc.tech.SwiftUIBloc.dev
-    APP_VERSION = 1.0
-
-    //
-
-    IS_STORYBOOK = YES
-
-    //-- Endpoint
-    API_ENDPOINT_URL = https:/$()/randomuser.me/api/
 ```
 
 And match parameter from .xcconfig in Configs class, a singleton class stores all configurations. All parameters are read from AppEnvironment class.
