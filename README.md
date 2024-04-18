@@ -201,7 +201,7 @@ Here is list all of key folders or files in code structure:
 |   |   |-- Utils                           *define all utility classes*
 |   |   |-- CommonUI                        *define all common Views and can use across modules but not use bloc inside*
 |   |   |-- 3rdParty                        *includes 3rd party that need to customize such as SwiftUIRouter
-|   |   |-- boilerplate_swiftui_blocApp.swift                       *the main class that app launch from*
+|   |   |-- demo_swift_blocApp.swift                       *the main class that app launch from*
 |   |-- demo-swift-blocTests       *unit testing for Blocs & Interactors
 |-- Repository
 |   |-- Repository
