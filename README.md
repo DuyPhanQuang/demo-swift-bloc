@@ -178,8 +178,8 @@ and provide Bloc into View in Route:
 Here is list all of key folders or files in code structure:
 ```
 .
-|-- boilerplate-swiftui-bloc            *store all assets that are font, icon, image, video or animation*
-|   |-- boilerplate-swiftui-bloc
+|-- demo-swift-bloc            *store all assets that are font, icon, image, video or animation*
+|   |-- demo-swift-bloc 
 |   |   |-- Bloc                            *all blocs that need in project*
 |   |       |-- language                    *each bloc has a folder with name of bloc only*
 |   |           |-- language_bloc.dart      *the Bloc class that extends of BaseBloc*
@@ -202,7 +202,7 @@ Here is list all of key folders or files in code structure:
 |   |   |-- CommonUI                        *define all common Views and can use across modules but not use bloc inside*
 |   |   |-- 3rdParty                        *includes 3rd party that need to customize such as SwiftUIRouter
 |   |   |-- boilerplate_swiftui_blocApp.swift                       *the main class that app launch from*
-|   |-- boilerplate-swiftui-blocTests       *unit testing for Blocs & Interactors
+|   |-- demo-swift-blocTests       *unit testing for Blocs & Interactors
 |-- Repository
 |   |-- Repository
 |   |   |-- Service                     *define all service classes*
