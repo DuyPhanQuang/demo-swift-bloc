@@ -248,24 +248,6 @@ Create a story file to add view into. A story file should cover all states of th
 }
 ```
 
-Add new story into Storybook.swift in Storybook folder:
-```swift
-    StorybookView(stories: [
-        Story("Avatar View") { AnyView(AvatarViewStory()) },
-        Story("Button View") { AnyView(ButtonViewStory()) }
-    ])
-```
-
-Change configuration to run Storybook in Configs.swift in Constant folder:
-```swift
-    var isStorybook: Bool
-    
-    init() {
-        isStorybook = AppEnvironment.isStorybook
-    }
-```
-
-then, run app to enjoy Storybook
 
 ## Router
 Define all Routers using in app, includes all parameters, BlocProvider, ...:
