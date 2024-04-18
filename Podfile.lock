@@ -1,0 +1,48 @@
+PODS:
+  - Introspect (0.1.4)
+  - Kingfisher (7.11.0)
+  - MockingbirdFramework (0.20.0)
+  - SwiftBloc (1.0.10)
+  - SwiftUIRefresh (0.0.3):
+    - Introspect (~> 0.1.0)
+
+DEPENDENCIES:
+  - Kingfisher (from `https://github.com/onevcat/Kingfisher.git`)
+  - MockingbirdFramework (~> 0.18)
+  - SwiftBloc (from `https://github.com/DuyPhanQuang/SwiftBloc.git`)
+  - SwiftUIRefresh (from `https://github.com/timbersoftware/SwiftUIRefresh.git`)
+
+SPEC REPOS:
+  trunk:
+    - Introspect
+    - MockingbirdFramework
+
+EXTERNAL SOURCES:
+  Kingfisher:
+    :git: https://github.com/onevcat/Kingfisher.git
+  SwiftBloc:
+    :git: https://github.com/DuyPhanQuang/SwiftBloc.git
+  SwiftUIRefresh:
+    :git: https://github.com/timbersoftware/SwiftUIRefresh.git
+
+CHECKOUT OPTIONS:
+  Kingfisher:
+    :commit: 298cb26fb70b1ebdcae237cdda802caf7942dc50
+    :git: https://github.com/onevcat/Kingfisher.git
+  SwiftBloc:
+    :commit: 2671c227d8d183a7db10f00b6a9d59aa34f48b7d
+    :git: https://github.com/DuyPhanQuang/SwiftBloc.git
+  SwiftUIRefresh:
+    :commit: fa8fac7b5eb5c729983a8bef65f094b5e0d12014
+    :git: https://github.com/timbersoftware/SwiftUIRefresh.git
+
+SPEC CHECKSUMS:
+  Introspect: b62c4dd2063072327c21d618ef2bedc3c87bc366
+  Kingfisher: b9c985d864d43515f404f1ef4a8ce7d802ace3ac
+  MockingbirdFramework: 54e35fbbb47b806c1a1fae2cf3ef99f6eceb55e5
+  SwiftBloc: 3be74d207a4896aca2ac3e76ec0f800b9b253f14
+  SwiftUIRefresh: ca6ae2718d25aad5dd68bbf5d2ae36ef6ade98bf
+
+PODFILE CHECKSUM: 95ee848486281df7c87fde55f42981db096e0b0c
+
+COCOAPODS: 1.14.3
